@@ -12,5 +12,9 @@
       "include": true
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "vue/vue.d.ts": {
+      "ref": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    }
+  }
 }
