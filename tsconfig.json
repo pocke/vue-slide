@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "declaration": false,
-    "noImplicitAny": true,
+    "module": "commonjs",
     "noEmitOnError": true,
-    "removeComments": true,
+    "noImplicitAny": true,
     "noLib": false,
     "outDir": "dist/",
-    "module": "commonjs"
+    "removeComments": true,
+    "target": "es5"
   },
   "files": [
+    "src/main.ts"
   ]
 }
