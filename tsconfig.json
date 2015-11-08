@@ -10,6 +10,7 @@
     "target": "es5"
   },
   "files": [
+    "src/index.html.d.ts",
     "src/main.ts"
   ]
 }
