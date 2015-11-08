@@ -6,10 +6,12 @@ import * as Marked from 'marked';
 import Vue = require('vue');
 
 class Slide extends Vue {
-  constructor(private markdown: string) {
+  constructor(private markdown: string, el: string|HTMLElement) {
     super();
+
     this._init({
-      el: html,
+      el: el,
+      template: html,
       data: {
         markdown: markdown,
       },
