@@ -23,3 +23,5 @@ class Slide extends Vue {
     return Marked(this.markdown);
   }
 }
+
+(<any>window).Slide = Slide;
