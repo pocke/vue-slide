@@ -1,2 +1,3 @@
 /dist/*.js
 /typings/
+/node_modules/
