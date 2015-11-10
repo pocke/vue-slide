@@ -13,7 +13,18 @@
 
 <script src="../browser/vue-slide.js"> </script>
 <script type="text/javascript">
-new Slide('# hoge', '#vue')
+var s = new Slide(
+  '# hoge\n'+
+  '---\n'+
+  '# fuga\n'+
+  '--\n'+
+  '- foo\n'+
+  '--\n'+
+  '- bar\n'+
+  '---\n'+
+  '# piyo\n',
+  '#vue')
+console.log(s);
 </script>
 </body>
 </html>

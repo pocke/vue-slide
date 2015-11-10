@@ -1,1 +1,12 @@
-<div v-html="marked"></div>
+<div>
+  <div v-for="md in markdowns" v-show="$index === page">
+    <div
+      v-for="s in md"
+      v-show="$index <= section"
+      v-html="marked(s)"
+    ></div>
+  </div>
+
+  <button @click="next">+</button>
+  <button @click="prev">-</button>
+</div>
