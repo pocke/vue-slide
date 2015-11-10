@@ -24,6 +24,10 @@ class Slide extends Vue {
   marked(): string {
     return Marked(this.markdown);
   }
+
+  markdowns(): string[][] {
+    return this.markdown.split("\n---\n").map(s => s.split("\n--\n"));
+  }
 }
 
 (<any>window).Slide = Slide;
